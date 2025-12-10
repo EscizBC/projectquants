@@ -1,9 +1,11 @@
+# render.yaml
 services:
   - type: web
     name: quants-shop-bots
     env: python
     region: frankfurt
-    buildCommand: pip install -r requirements.txt
+    # ВАЖНО: добавлен флаг --only-binary=:all:
+    buildCommand: pip install --only-binary=:all: -r requirements.txt
     startCommand: python main.py
     envVars:
       - key: PORT
