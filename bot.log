@@ -1,0 +1,88 @@
+2025-12-09 21:50:21,400 - INFO - ============================================================
+2025-12-09 21:50:21,400 - INFO - 🚀 ЗАПУСК БОТА GUFY
+2025-12-09 21:50:21,401 - INFO - Токен: 8318644879...
+2025-12-09 21:50:21,401 - INFO - ID группы: -1003486775175
+2025-12-09 21:50:21,401 - INFO - ============================================================
+2025-12-09 21:50:21,717 - INFO - ✅ Бот: @quantstop_bot (ID: 8318644879)
+2025-12-09 21:50:21,718 - INFO - 📊 Записей в БД: 0
+2025-12-09 21:50:21,718 - INFO - 
+✨ Бот запущен и готов к работе!
+2025-12-09 21:50:21,718 - INFO - Команды: /top, /status, /debug, /help, /test, /add
+2025-12-09 21:50:21,719 - INFO - ============================================================
+2025-12-09 21:50:21,719 - INFO - Start polling
+2025-12-09 21:50:21,770 - INFO - Run polling for bot @quantstop_bot id=8318644879 - 'TOP'
+2025-12-09 21:50:28,984 - INFO - Получено сообщение от 6380771602 в чате -1003486775175: /top
+2025-12-09 21:50:28,985 - INFO - Вызвана команда /top от 6380771602
+2025-12-09 21:50:28,985 - INFO - Таблицы в БД: [('payments',)]
+2025-12-09 21:50:28,985 - INFO - Всего записей в БД: 0
+2025-12-09 21:50:29,168 - INFO - Update id=23164971 is handled. Duration 183 ms by bot id=8318644879
+2025-12-09 21:51:54,677 - INFO - Получено сообщение от 6380771602 в чате -1003486775175: /import
+2025-12-09 21:51:54,677 - INFO - Update id=23164972 is handled. Duration 0 ms by bot id=8318644879
+2025-12-09 21:52:02,326 - INFO - Получено сообщение от 6380771602 в чате -1003486775175: /import
+2025-12-09 21:52:02,327 - INFO - Update id=23164973 is handled. Duration 0 ms by bot id=8318644879
+2025-12-09 22:03:14,432 - INFO - Start polling
+2025-12-09 22:03:14,644 - INFO - Run polling for bot @quantstop_bot id=8318644879 - 'TOP'
+2025-12-09 22:03:28,711 - INFO - 📨 СООБЩЕНИЕ: chat_id=-1003486775175, topic_id=None, text=/top
+2025-12-09 22:03:28,711 - INFO - Update id=23164980 is handled. Duration 0 ms by bot id=8318644879
+2025-12-09 22:03:31,404 - INFO - 📨 СООБЩЕНИЕ: chat_id=-1003486775175, topic_id=None, text=/stats
+2025-12-09 22:03:31,408 - INFO - Update id=23164981 is not handled. Duration 4 ms by bot id=8318644879
+2025-12-09 22:03:31,410 - ERROR - Cause exception while process update id=23164981 by bot id=8318644879
+NameError: name 'show_stats' is not defined
+Traceback (most recent call last):
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\musin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\musin\Desktop\minecraft\top.py", line 182, in handle_all_messages
+    await show_stats(message)
+          ^^^^^^^^^^
+NameError: name 'show_stats' is not defined
+2025-12-09 22:03:48,717 - INFO - 📨 СООБЩЕНИЕ: chat_id=-1003486775175, topic_id=None, text=/debug
+2025-12-09 22:03:48,717 - INFO - ПАРСИНГ сообщение длиной 74 символов
+2025-12-09 22:03:48,720 - INFO - Найден воркер через #: testworker
+2025-12-09 22:03:48,721 - INFO - Найдены числа в тексте: ['100', '70']
+2025-12-09 22:03:48,722 - INFO - Суммы: amount=100.0, share=70.0
+2025-12-09 22:03:48,722 - INFO - ✅ УСПЕШНЫЙ ПАРСИНГ: testworker - 100.0$ (70.0$)
+2025-12-09 22:03:48,972 - INFO - Update id=23164982 is handled. Duration 255 ms by bot id=8318644879

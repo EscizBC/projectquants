@@ -1,0 +1,5 @@
+2025-12-09 22:18:11,396 - DEBUG - Using proactor: IocpProactor
+2025-12-09 22:18:11,586 - INFO - Start polling
+2025-12-09 22:18:11,633 - INFO - Run polling for bot @quantstop_bot id=8318644879 - 'TOP'
+2025-12-09 22:18:23,916 - INFO - Update id=23164993 is handled. Duration 377 ms by bot id=8318644879
+2025-12-09 22:18:52,491 - INFO - Update id=23164994 is handled. Duration 175 ms by bot id=8318644879

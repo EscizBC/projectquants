@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: quants-shop-bots
+    env: python
+    region: frankfurt
+    buildCommand: pip install --only-binary :all: -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: PORT
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: 3.10.0
+    healthCheckPath: /health
+    autoDeploy: true
+    plan: free

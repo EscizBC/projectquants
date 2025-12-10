@@ -1,0 +1,13 @@
+2025-12-09 22:10:12,771 - aiogram.dispatcher - INFO - Start polling
+2025-12-09 22:10:12,819 - aiogram.dispatcher - INFO - Run polling for bot @quantstop_bot id=8318644879 - 'TOP'
+2025-12-09 22:10:23,242 - aiogram.event - INFO - Update id=23164984 is not handled. Duration 0 ms by bot id=8318644879
+2025-12-09 22:10:27,187 - root - INFO - Получена команда /top от пользователя 6380771602
+2025-12-09 22:10:27,188 - root - INFO - Chat ID: -1003486775175, Topic ID: 0
+2025-12-09 22:10:27,382 - root - INFO - 🔄 Начинаю сбор истории сообщений...
+2025-12-09 22:10:27,383 - root - ERROR - Ошибка при получении истории: 'Bot' object has no attribute 'get_chat_history'
+2025-12-09 22:10:27,383 - root - INFO - Пробуем альтернативный метод сбора истории...
+2025-12-09 22:10:27,383 - root - INFO - Добавлено 10 тестовых записей
+2025-12-09 22:10:27,480 - aiogram.event - INFO - Update id=23164985 is handled. Duration 293 ms by bot id=8318644879
+2025-12-09 22:10:36,374 - aiogram.event - INFO - Update id=23164986 is not handled. Duration 0 ms by bot id=8318644879
+2025-12-09 22:10:43,818 - aiogram.event - INFO - Update id=23164987 is not handled. Duration 0 ms by bot id=8318644879
+2025-12-09 22:10:46,596 - aiogram.event - INFO - Update id=23164988 is not handled. Duration 0 ms by bot id=8318644879

@@ -1,0 +1,57 @@
+{
+  "4YHG9A96": {
+    "user_id": 8127265609,
+    "order": {
+      "count": 1,
+      "price": 1,
+      "deal_number": 7848,
+      "user_id": 8127265609
+    },
+    "status": "waiting",
+    "timestamp": "2025-11-17T20:29:16.240596"
+  },
+  "V265Q4ZN": {
+    "user_id": 5251740393,
+    "order": {
+      "count": 92,
+      "price": 920,
+      "deal_number": 7488,
+      "user_id": 5251740393
+    },
+    "status": "waiting",
+    "timestamp": "2025-11-18T22:47:09.810950"
+  },
+  "9G847B0Y": {
+    "user_id": 6380771602,
+    "order": {
+      "count": 3,
+      "price": 30,
+      "deal_number": 7397,
+      "user_id": 6380771602
+    },
+    "status": "confirmed",
+    "timestamp": "2025-11-23T17:31:05.627211"
+  },
+  "V3JUPY73": {
+    "user_id": 6380771602,
+    "order": {
+      "count": 3,
+      "price": 30,
+      "deal_number": 2194,
+      "user_id": 6380771602
+    },
+    "status": "confirmed",
+    "timestamp": "2025-11-23T17:36:58.208517"
+  },
+  "4H1HJS7K": {
+    "user_id": 6380771602,
+    "order": {
+      "count": 3,
+      "price": 30,
+      "deal_number": 5170,
+      "user_id": 6380771602
+    },
+    "status": "confirmed",
+    "timestamp": "2025-11-23T17:52:36.806768"
+  }
+}
