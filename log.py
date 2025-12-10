@@ -587,10 +587,6 @@ async def back_to_main_handler(callback_query: types.CallbackQuery):
 #     asyncio.run(main())
 
 async def main():
-    """Главная асинхронная функция для запуска из main.py"""
+    """Главная функция для запуска из main.py"""
     logger.info("📊 Логгер-бот запущен...")
     await dp.start_polling(bot)
-
-# Для обратной совместимости оставь:
-if __name__ == '__main__':
-    asyncio.run(main())
